@@ -1,0 +1,153 @@
+html,body {
+    margin: 0;
+    padding: 0;
+}
+.background {
+    background-image: url("veg.jpg");
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+}
+.navBar hr {
+    display: flex;
+    justify-content: space-around;
+    height: 1px;
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.navText {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Lato', sans-serif;
+}
+.centerContent {
+    margin-top: 300px;
+    
+}
+.centerText {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 300px;
+    color: white;
+}
+.bigText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: content;
+    height: 50px;
+    font-family: 'Lato', sans-serif;
+}
+.smallText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    height: 50px;
+    font-family: 'Exo 2', sans-serif;
+}
+.bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2px;
+    width: 300px;
+    margin-left: 40%;
+    background-color: white;
+}
+.bread {
+    display: flex;
+    background-color: black;
+    margin-top: 500px;
+}
+.breadImg {
+    background-image: url("bread.jpg");
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 600px;
+}
+.breadText {
+    margin-left: 200px;
+    color: White;
+}
+.breadTextTitle {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    font-family: 'Lato', sans-serif;
+}
+.breadTextPara {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+    font-family: 'Exo 2', sans-serif;
+}
+.pineapple {
+    background-color: #202020;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.pineappleImg {
+    background-image: url("pineapple.jpg");
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 600px;
+}
+.pineappleText {
+    color: white;
+    margin-left: 200px;
+}
+.pineappleTitle {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    font-family: 'Lato', sans-serif;
+}
+.pineapplePara {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Exo 2', sans-serif;
+}
+.pasta {
+    display: flex;
+    background-color: #303030;
+}
+.pastaImg {
+    background-image: url("pasta.jpg");
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: fixed;
+    height: 400px;
+    width: 600px;
+}
+.pastaText{
+    color: white;
+    margin-left: 200px;
+}
+.pastaTitle {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    font-family: 'Lato', sans-serif;
+}
+.pastaPara {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+    font-family: 'Exo 2', sans-serif;
+}
